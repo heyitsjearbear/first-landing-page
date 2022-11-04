@@ -1,32 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Landing Page</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header and navigation bar here-->
-    <header class="dark-background">
-        <nav>
-          <div>
-            <span class="hero-logo">Header Logo</span>
-          </div>
-          <div class="hero-secondary nav-link-div">
-            <a>header link one</a>
-            <a>header link two</a>
-            <a>header link three</a>
-          </div>
-        </nav>
-        <div class = "hero-div">
-            <div class = "hero-title">This Website is awesome</div>
-            <div class = "hero-text">This will be the caption for the title</div>
-            <button class = "press-me">PRESS ME!</button>
-            <div class = "hero-img">
-                <img src = "https://i.pinimg.com/736x/0a/bb/e5/0abbe546e479edc1eb62f5a8ccd66328.jpg">
-            </div>
+    <header class="header-section">
+      <nav>
+        <!-- Company logo would go in this div-->
+        <div>
+          <span class="hero-left">Header Logo</span>
         </div>
-</body>
+        <div class="hero-right nav-link-div">
+          <a>header link one</a>
+          <a>header link two</a>
+          <a>header link three</a>
+        </div>
+      </nav>
+      <!--div for header information-->
+      <div class="hero-div">
+        <div class="hero-title">This Website is awesome</div>
+        <div class="hero-text">This will be the caption for the title</div>
+        <button class="press-me">PRESS ME!</button>
+        <div class="hero-img">
+          <img
+            src="https://i.pinimg.com/736x/0a/bb/e5/0abbe546e479edc1eb62f5a8ccd66328.jpg"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- Info that goes under header part-->
+    <div class = "under-header">
+      <div class = "under-header-info">under header title
+        <!-- first image and caption-->
+        <div class = "under-header-img">
+          <img src = "https://media.moddb.com/images/members/5/4550/4549205/duck.jpg"/>
+          <p>this describes an image</p>
+        </div>
+        <!-- second image and caption-->
+        <div class = "under-header-img">
+          <img src = "https://media.moddb.com/images/members/5/4550/4549205/duck.jpg"/>
+          <p>this describes an image</p>
+        </div>
+        <!--third image and caption-->
+        <div class = "under-header-img">
+          <img src = "https://media.moddb.com/images/members/5/4550/4549205/duck.jpg"/>
+          <p>this describes an image</p>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
