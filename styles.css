@@ -3,7 +3,8 @@ nav{
     /*will make logo and links flexbox items within nav bar*/
     display: flex;
     justify-content: space-between;
-    padding: 15px
+    padding: 15px;
+
 }
 .logo{
     font-size: 24px;
@@ -12,5 +13,13 @@ nav{
 .hero-div{
     display: flex;
     background-color: #15ca88;
+    justify-content: space-evenly;
+}
+
+#under-header-title{
+    text-align: center;
+}
+.images-captions{
+    display: flex;
     justify-content: space-evenly;
 }
