@@ -8,6 +8,16 @@ nav{
 
 }
 
+.hero-title{
+    color: white; 
+    font-size: 48px; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: bold; 
+}
+.hero-title.hero-text{
+    font-size:small;
+}
+
 .hero-right{
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -21,9 +31,12 @@ nav{
 .hero-div{
     display: flex;
     background-color: #1F2937;
-    justify-content: space-evenly;
     margin: -10px;
+    justify-content: space-around;
+    height: 400px;
+    align-items: center;
 }
+
 
 #under-header-title{
     text-align: center;
