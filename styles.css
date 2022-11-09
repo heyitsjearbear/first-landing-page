@@ -45,3 +45,24 @@ nav{
     display: flex;
     justify-content: space-evenly;
 }
+
+.quote{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    background-color: #e5e7eb;
+}
+#quote-person{
+    padding-bottom: 30px;
+    padding-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: right;
+    text-decoration: underline;
+}
+/*ur cute <3*/
