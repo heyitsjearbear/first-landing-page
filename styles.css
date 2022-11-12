@@ -67,4 +67,51 @@ nav{
     justify-content: right;
     text-decoration: underline;
 }
+.below-quote{
+    display: flex;
+    padding: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+}
+.sign-up-label{
+    padding-left: 185px;
+    padding-right: 185px;
+    color: white;
+    display: flex;
+    background-color: #3882f6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 9px;
+}
+.button-header{
+    display: flex;
+    justify-content: space-around;
+}
+.button-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.button-caption{
+    font-family: 'Roboto', sans-serif;
+}
+.button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color:white;
+    background-color:#3882f6;
+    border-color: whitesmoke;
+    border-radius: 5px;
+}
+footer{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    background-color: #1F2937;
+    padding: 50px;
+    justify-content: center;
+
+}
+
 /*ur cute <3*/
