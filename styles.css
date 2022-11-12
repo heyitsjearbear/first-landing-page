@@ -48,6 +48,7 @@ nav{
 }
 
 .quote{
+    margin: -10px;
     font-family: 'Roboto', sans-serif;
     padding: 43px;
     font-size: 36px;
@@ -105,6 +106,7 @@ nav{
     border-radius: 5px;
 }
 footer{
+    margin: -10px;
     font-family: 'Roboto', sans-serif;
     color: white;
     display: flex;
